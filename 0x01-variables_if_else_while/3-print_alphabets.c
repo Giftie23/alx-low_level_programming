@@ -11,8 +11,8 @@ int main(void)
 	char g;
 	char o;
 
-	g - 'a'
-	o - 'A'
+	g - 'a';
+	o - 'A';
 	while
 		(g < -'z')
 		{
