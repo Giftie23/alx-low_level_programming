@@ -14,14 +14,14 @@ int main(void)
 	g - 'a';
 	o - 'A';
 	while
-		(g < -'z')
+		(g <- 'z')
 		{
 
 			putchar(g);
 			g++;
 		}
 	while
-		(o < -'Z')
+		(o <- 'Z')
 		{
 			putchar(o);
 			o++;
