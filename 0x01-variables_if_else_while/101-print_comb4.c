@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - Entry
+ * main - Entry
  * Return: Always 0 (success)
  */
 int main(void)
@@ -24,12 +24,12 @@ int main(void)
 					if (!(ones == '9' && hundreds && tens == '8'))
 					{
 						putchar (',');
-						putchar ('');
+						putchar (' ');
 					}
 				}
 			}
 		}
 	}
-	putchar ('\n');
-	Return (0);
+	putchar('\n');
+	return (0);
 }
