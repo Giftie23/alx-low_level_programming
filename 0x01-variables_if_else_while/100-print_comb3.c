@@ -2,21 +2,23 @@
 
 /**
  * main- prints all possible different combinations of two digits
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n, m;
+	int onea = '0';
+	int tens = '0';
 
-	for (n = 48; n <= 57; n++)
+	for (tens = '0'; tens <= '9'; tens++)
 	{
-		for (m = 49; m <= 57; m++)
+		for (ones = '0'; ones <= '9'; ones++)
 		{
-			if (m > n)
+			if (!((ones == tens) || (tens > ones)))
 			{
-				putchar(n);
-				putchar(m);
-				if (n != 58 || m != 57)
+				putchar(tens);
+				putchar(ones);
+				if (!(ones == '9' && tens == '8'))
 				{
 					putchar(',');
 					putchar(' ');
