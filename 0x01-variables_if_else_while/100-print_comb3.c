@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int onea = '0';
+	int ones = '0';
 	int tens = '0';
 
 	for (tens = '0'; tens <= '9'; tens++)
