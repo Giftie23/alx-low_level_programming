@@ -3,9 +3,9 @@
 /**
 * main - Prints putchar
 * Return: Always 0
-* int main(void)
 *
 */
+int main(void)
 {
 
 	 _putchar('_');
