@@ -2,6 +2,8 @@
 
 /**
  * main - main function
+ * multiples of 3 or 5
+ *
  * Return: always 0
  */
 
@@ -12,11 +14,11 @@ int main(void)
 
 	sum = 0;
 
-	for i = 0; i < 1024; i++)
+	for i = 1; i < 1024; i++)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			sum = sum + i;
+			sum += i;
 		}
 	}
 	printf("%d\n", sum);
